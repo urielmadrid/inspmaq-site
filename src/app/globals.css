@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-dark: #0B2A1D;
+  --color-brand-darker: #071D14;
+  --color-brand-green: #347F3E;
+  --color-brand-lime: #8BD146;
+  --color-brand-mist: #F4F9F1;
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-inter);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  background-color: var(--color-brand-dark);
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6,
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+  letter-spacing: -0.025em;
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid #8BD146;
+  outline-offset: 3px;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+.animate-gradient-slow {
+  background-size: 200% 200%;
+  animation: gradient-shift 9s ease-in-out infinite;
+}
+
+@keyframes text-glow {
+  0% {
+    text-shadow: 0 0 20px rgba(139, 209, 70, 0.9), 0 0 40px rgba(139, 209, 70, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 0 rgba(139, 209, 70, 0);
+  }
+}
+
+.animate-text-glow {
+  animation: text-glow 1.2s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-gradient-slow,
+  .animate-text-glow,
+  .animate-pulse {
+    animation: none !important;
+  }
+}

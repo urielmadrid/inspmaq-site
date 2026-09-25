@@ -1,0 +1,35 @@
+# INSPMAQ
+
+> A INSPMAQ oferece manutenção industrial, inspeções técnicas e locação de caminhão guindauto para operações industriais e portuárias em Rio Grande - RS e região.
+
+A empresa apresenta no site seus serviços, informações sobre frota, formas de contato e política de privacidade. As informações abaixo refletem o conteúdo público disponível no site e não devem ser usadas para inferir dados que não estejam publicados.
+
+## Site
+
+- [Página inicial](https://inspmaq.com.br/): Visão geral da INSPMAQ, serviços e atuação.
+- [Serviços](https://inspmaq.com.br/servicos): Manutenção industrial, inspeções técnicas e locação de caminhão guindauto.
+- [Frota](https://inspmaq.com.br/frota): Informações sobre a frota de caminhões guindauto.
+- [Contato](https://inspmaq.com.br/contato): Canais de contato e solicitação de orçamento.
+- [Política de Privacidade](https://inspmaq.com.br/politica-de-privacidade): Informações sobre privacidade, dados pessoais e cookies.
+
+## Serviços
+
+- [Manutenção industrial](https://inspmaq.com.br/servicos#manutencao): Serviços de manutenção preventiva e corretiva apresentados no site.
+- [Inspeções técnicas](https://inspmaq.com.br/servicos#inspecoes): Inspeções técnicas relacionadas às atividades descritas no site, incluindo referências a NR-35 e NR-29.
+- [Locação de caminhão guindauto](https://inspmaq.com.br/servicos#guindauto): Locação de equipamento para movimentação e transporte de cargas.
+
+## Área de atendimento
+
+- Rio Grande - RS e região, incluindo operações industriais e portuárias.
+
+## Contato
+
+- [E-mail](mailto:contato@inspmaq.com.br): contato@inspmaq.com.br
+- [WhatsApp](https://wa.me/5553981018934): +55 (53) 98101-8934
+- [Instagram](https://www.instagram.com/inspmaq): perfil público da INSPMAQ.
+
+## Observações
+
+- Este arquivo é uma referência resumida para agentes e sistemas que processam conteúdo do site.
+- As informações devem ser verificadas nas páginas vinculadas antes de serem usadas como fonte final.
+- O arquivo não representa uma garantia de indexação, posicionamento ou ranking em mecanismos de busca.
