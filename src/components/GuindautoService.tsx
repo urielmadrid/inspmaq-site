@@ -31,7 +31,7 @@ const features = [
   },
 ];
 
-const videos = ["/munck-bg.mp4", "/munck-bg-2.mp4"];
+const videos = ["/munck-bg.mp4"];
 
 export default function GuindautoService() {
   const { ref, inView } = useInViewOnce<HTMLElement>();

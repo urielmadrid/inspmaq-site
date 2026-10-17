@@ -65,7 +65,7 @@ const services: ServiceData[] = [
     purpose: "Carregar, transportar e movimentar cargas com um único equipamento, com operador qualificado incluso.",
     intro:
       "Os caminhões guindauto unem força e agilidade para mover o que a operação precisa sem parar o cronograma. O mesmo caminhão carrega, transporta e movimenta a carga.",
-    videos: ["/munck-bg.mp4", "/munck-bg-2.mp4"],
+    videos: ["/munck-bg.mp4"],
     videoLabel: "Imagens de caminhão guindauto em operação",
     blocks: [
       {

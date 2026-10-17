@@ -35,7 +35,7 @@ export default function FrotaPage() {
         <section className="hairline-t py-20 md:py-28">
           <div className="mx-auto grid max-w-7xl gap-12 px-6 md:px-10 lg:grid-cols-12 lg:gap-14">
             <div className="lg:col-span-7">
-              <SectionVideo sources={["/munck-bg.mp4", "/munck-bg-2.mp4"]} label="Imagens de caminhão guindauto em operação" />
+              <SectionVideo sources={["/munck-bg.mp4"]} label="Imagens de caminhão guindauto em operação" />
             </div>
             <div className="lg:col-span-5">
               <p className="eyebrow">Sobre a frota</p>
