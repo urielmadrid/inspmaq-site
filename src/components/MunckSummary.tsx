@@ -25,13 +25,13 @@ export default function MunckSummary() {
   //   return () => clearInterval(interval);
   // }, [inView])
 
-  useEffect(() => {
-    videoRefs.current.forEach((video, index) => {
-      if (!video) return;
-      if (index === active) video.play().catch(() => {});
-      else video.pause();
-    });
-  }, [active, inView]);
+  // useEffect(() => {
+  //   videoRefs.current.forEach((video, index) => {
+  //     if (!video) return;
+  //     if (index === active) video.play().catch(() => {});
+  //     else video.pause();
+  //   });
+  // }, [active, inView]);
 
   return (
     <section ref={ref} className="relative overflow-hidden">
