@@ -10,7 +10,7 @@ import { useInViewOnce } from "@/hooks/useInViewOnce";
 const summary =
   "Nossa frota de caminhões guindauto está pronta para movimentar e transportar cargas pesadas com agilidade e segurança. Atendemos obras, indústrias e operações portuárias que precisam mover uma carga sem depender de um guindaste separado.";
 
-const videos = ["/munck-bg-2.mp4"];
+const videos = ["/munck-bg.mp4"];
 
 export default function MunckSummary() {
   const { ref, inView } = useInViewOnce<HTMLElement>();
