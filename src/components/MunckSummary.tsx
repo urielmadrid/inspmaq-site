@@ -17,13 +17,13 @@ export default function MunckSummary() {
   const [active, setActive] = useState(0);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
 
-  useEffect(() => {
-    if (!inView) return;
-    const interval = setInterval(() => {
-      setActive((prev) => (prev + 1) % videos.length);
-    }, 9000);
-    return () => clearInterval(interval);
-  }, [inView]);
+  // useEffect(() => {
+  //   if (!inView) return;
+  //   const interval = setInterval(() => {
+  //     setActive((prev) => (prev + 1) % videos.length);
+  //   }, 9000);
+  //   return () => clearInterval(interval);
+  // }, [inView])
 
   useEffect(() => {
     videoRefs.current.forEach((video, index) => {
