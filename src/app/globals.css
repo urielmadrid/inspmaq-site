@@ -93,10 +93,11 @@ section.bg-brand-green { background: linear-gradient(115deg, #0A3D24 0%, #0F4A2B
 .eyebrow::before {
   content: "";
   display: inline-block;
-  width: 18px; height: 9px;
+  width: 18px;
+  height: 18px;
   margin-right: .7em;
-  vertical-align: -1px;
-  background: linear-gradient(180deg, #02842E 0 33.3%, #C0281E 33.3% 66.6%, #FFC72C 66.6% 100%);
+  vertical-align: -4px;
+  background: url("/inspmaq-mark.png") center / contain no-repeat;
 }
 /* Malha técnica sutil que se dissolve no fundo da página */
 .blueprint {
