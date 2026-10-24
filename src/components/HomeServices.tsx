@@ -14,7 +14,7 @@ const services = [
     n: "02",
     title: "Inspeções técnicas",
     purpose: "Identificar riscos antes que se tornem acidente, multa ou parada de operação.",
-    items: ["Referências: NR-11, NR-29 e NR-35, conforme a atividade", "Estrutura, sistemas elétrico e hidráulico", "Registros técnicos conforme o serviço executado"],
+    items: ["Referências: NR-11, NR-12, NR-29 e NR-35, conforme a atividade", "Estrutura, sistemas elétrico e hidráulico", "Registros técnicos conforme o serviço executado"],
     href: "/servicos#inspecoes",
   },
   {

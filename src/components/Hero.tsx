@@ -12,7 +12,7 @@ const index = [
 const facts = [
   { label: "No setor industrial", value: "Desde 2014" },
   { label: "Sede", value: "Rio Grande, RS" },
-  { label: "Normas de referência", value: "NR-11, NR-29 e NR-35" },
+  { label: "Normas de referência", value: "NR-11, NR-12, NR-29 e NR-35" },
   { label: "Ambientes de atuação", value: "Industrial e portuário" },
 ];
 

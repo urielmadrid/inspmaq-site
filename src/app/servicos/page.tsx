@@ -46,7 +46,7 @@ const services: ServiceData[] = [
     blocks: [
       {
         heading: "Normas de referência",
-        items: ["NR-11 — transporte, movimentação, armazenagem e manuseio de materiais", "NR-29 — segurança e saúde no trabalho portuário", "NR-35 — trabalho em altura"],
+        items: ["NR-11 — transporte, movimentação, armazenagem e manuseio de materiais", "NR-12 — segurança no trabalho em máquinas e equipamentos", "NR-29 — segurança e saúde no trabalho portuário", "NR-35 — trabalho em altura"],
       },
       {
         heading: "Pontos verificados",
