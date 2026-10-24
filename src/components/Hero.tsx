@@ -39,9 +39,11 @@ export default function Hero() {
         <div className="lg:max-w-[46%]">
           <p className="eyebrow">INSPMAQ / Rio Grande, RS</p>
           <h1 className="mt-6 font-heading text-4xl font-extrabold leading-[1.05] text-brand-text sm:text-5xl lg:text-[3.4rem]">
-            Máquinas em operação. Pessoas em segurança. Processos que precisam continuar.
-            <span className="text-brand-gradient"> A Inspmaq trabalha onde esses fatores se encontram.</span>
-          </h1>
+  Máquinas em operação. Pessoas em segurança. Processos que precisam continuar.
+  <span className="mt-4 block text-brand-gradient">
+    A Inspmaq trabalha onde esses fatores se encontram.
+  </span>
+</h1>
           <p className="mt-7 max-w-xl text-base leading-7 text-brand-muted md:text-lg md:leading-8">
             Desde 2014, a Inspmaq atua em manutenção industrial, inspeções técnicas, assistência em equipamentos SAUR e movimentação de cargas. Seu trabalho conecta condição dos equipamentos, segurança e realidade de operações industriais e portuárias.
           </p>
