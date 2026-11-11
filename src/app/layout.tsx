@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import { Manrope, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import CookieConsent from "@/components/CookieConsent";
-import StructuredData from "@/components/StructuredData";
 import ChatbotFAQ from "@/components/ChatbotFAQ";
+import StructuredData from "@/components/StructuredData";
 
-const manrope = Manrope({ subsets: ["latin"], weight: ["500", "600", "700", "800"], variable: "--font-heading" });
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const jetbrains = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-jetbrains" });
 const siteUrl = "https://inspmaq.com.br";
 const siteName = "INSPMAQ";
 const siteDescription = "Conheça a Inspmaq: manutenção industrial, inspeções técnicas, assistência em equipamentos SAUR e movimentação de cargas em Rio Grande - RS.";
@@ -65,7 +61,15 @@ const website = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${manrope.variable} ${inter.variable} ${jetbrains.variable} font-body`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&display=swap"
+        />
+      </head>
+      <body className="font-body">
         <StructuredData data={organization} />
         <StructuredData data={website} />
         <GoogleAnalytics />
